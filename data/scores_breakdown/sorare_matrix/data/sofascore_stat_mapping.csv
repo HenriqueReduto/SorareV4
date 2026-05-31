@@ -1,0 +1,26 @@
+Stat,SofaScoreColumn,MappingNote
+YELLOW_CARD,v3_TMYellowCards,Transfermarkt event yellow cards from V3 player context
+FOULS,player_fouls,Player-level SofaScore fouls from V3
+WAS_FOULED,player_was_fouled,Player-level SofaScore was fouled from V3
+ERROR_LEAD_TO_SHOT,player_error_lead_to_a_shot,Player-level SofaScore error leading to shot from V3
+EFFECTIVE_CLEARANCE,player_total_clearance,Player-level SofaScore total clearances from V3
+WON_TACKLE,player_won_tackle,Player-level SofaScore won tackles from V3
+OUTFIELDER_BLOCK,player_outfielder_block,Player-level SofaScore outfielder blocks from V3
+POSS_LOST_CTRL,player_possession_lost_ctrl,Player-level SofaScore possession lost from V3
+DUEL_LOST,player_duel_lost,Player-level SofaScore duels lost from V3
+DUEL_WON,player_duel_won,Player-level SofaScore duels won from V3
+INTERCEPTION_WON,player_interception_won,Player-level SofaScore interceptions won from V3
+BIG_CHANCE_CREATED,player_big_chance_created,Player-level SofaScore big chances created from V3
+ADJUSTED_TOTAL_ATT_ASSIST,player_key_pass,Player-level SofaScore key passes used as available proxy for adjusted attempted assists
+ACCURATE_PASS,player_accurate_pass,Player-level SofaScore accurate passes from V3
+ACCURATE_LONG_BALLS,player_accurate_long_balls,Player-level SofaScore accurate long balls from V3
+ONTARGET_SCORING_ATT,player_on_target_scoring_attempt,Player-level SofaScore shots on target from V3
+WON_CONTEST,player_won_contest,Player-level SofaScore won contests from V3
+PENALTY_KICK_MISSED,player_penalty_miss,Player-level SofaScore penalty misses from V3
+BIG_CHANCE_MISSED,player_big_chance_missed,Player-level SofaScore big chances missed from V3
+SAVES,player_saves,Player-level SofaScore goalkeeper saves from V3
+SAVED_IBOX,player_saved_shots_from_inside_the_box,Player-level SofaScore saves from inside box from V3
+GOOD_HIGH_CLAIM,player_good_high_claim,Player-level SofaScore good high claims from V3
+PUNCHES,player_punches,Player-level SofaScore punches from V3
+CROSS_NOT_CLAIMED,player_cross_not_claimed,Player-level SofaScore crosses not claimed from V3
+ACCURATE_KEEPER_SWEEPER,player_accurate_keeper_sweeper,Player-level SofaScore accurate keeper sweepers from V3

@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+
+.gradio/
+~$*.xlsx
+dashboard/*.log
+dashboard/dashboard_local_url.txt
+dashboard/dashboard_public_url.txt

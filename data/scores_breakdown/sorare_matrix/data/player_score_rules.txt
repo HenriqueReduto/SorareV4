@@ -1,0 +1,63 @@
+2. Player Score (PS)
+
+Sorare Player Scores range from 0 to 100.
+
+On a player page, Sorare displays:
+- historical scores
+- average score across the most recent five matches
+- average score across the most recent fifteen matches
+
+DNP matches are excluded from these averages.
+
+Core formula used by Sorare:
+
+Player Score = Decisive Score + All-Around Score
+
+Sorare notes that if the All-Around Score is negative, it may be treated as zero in the Player Score calculation, except where negative decisive-score levels allow the score to be impacted by negative all-around performance.
+
+The final Player Score remains capped between 0 and 100.
+
+If a player has two matches in a game week, only one match is counted for the score, according to the help page.
+
+3. Decisive Score (DS)
+
+The Decisive Score captures match-changing events.
+
+Players start at level 0, which corresponds to:
+- 35 points for a starter
+- 35 points for a substitute who comes on during the match
+
+Each positive decisive action increases the level.
+Each negative decisive action decreases the level.
+
+Positive impact actions:
+- Goal
+- Assist
+- Penalty won
+- Clearance off the line
+- Clean sheet, goalkeeper only
+- Penalty save
+- Last-man tackle
+
+Negative impact actions:
+- Red card
+- Own goal
+- Penalty conceded
+- Error leading to a goal
+
+Sorare examples:
+- two goals, one assist, and one red card produce level 2, equal to 70 points
+- one penalty conceded plus one red card produces level -2, equal to 5 points
+
+3.1 Decisive Score levels
+
+Level,Points,Guaranteed minimum
+-3,0,No
+-2,5,No
+-1,15,No
+0,35,No
+1,60,Yes
+2,70,Yes
+3,80,Yes
+4,90,Yes
+5,100,Yes
